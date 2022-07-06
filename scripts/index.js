@@ -15,6 +15,9 @@ const arrayBlockText = document.querySelectorAll('.description__content-text');
 const descriptionArray = document.querySelectorAll('.description__array');
 const arrayMenuBurger = document.querySelectorAll('.menu__click');
 
+const formText = document.querySelector('#comment');
+const buttonForm = document.querySelector('#submit');
+
 //массив ссылок меню бургер
 const linkSidebar = document.querySelectorAll('.page__links');
 
@@ -105,6 +108,15 @@ logo.addEventListener('click', closeBlockText);
 
   // Слушатель клика по меню 
   burgerMenu.addEventListener('click', openedBurgerMenu );
+
+  //--------------------------------------------------------------------------------------------------- 
+// Очистка формы
+  function cleanForm () {
+    formText.value= "";
+  }
+
+  //кликаем по кнопке и очищаем форму
+  buttonForm.addEventListener('click', cleanForm);
 
   //---------------------------------------------------------------------------------------------------
 
