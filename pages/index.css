@@ -32,6 +32,13 @@
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__mane/description__mane.css);
 
+@import url(../blocks/textarea/textarea.css);
+@import url(../blocks/textarea/__comment/textarea__comment.css);
+@import url(../blocks/textarea/__container/textarea__container.css);
+@import url(../blocks/textarea/__span/textarea__span.css);
+@import url(../blocks/textarea/__submit/textarea__submit.css);
+@import url(../blocks/textarea/__title/textarea__title.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
