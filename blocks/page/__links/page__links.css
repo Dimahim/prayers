@@ -1,0 +1,7 @@
+.page__links:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 400ms;
+  
+
+}

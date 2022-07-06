@@ -1,0 +1,16 @@
+.description__sidebar {
+  max-width: 295px;
+  border-radius: 10px;
+  min-height: 588px;
+  background-color: #fff;
+  padding: 35px 20px;
+  box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%);
+  flex-direction: column;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .description__sidebar {
+    display: none;
+  }
+}

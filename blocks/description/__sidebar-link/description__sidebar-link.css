@@ -1,0 +1,13 @@
+.description__sidebar-link {
+  text-decoration: revert;
+  color: #757575;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
+  font-style: normal;
+}
+
+.description__sidebar-lin:last-of-type {
+  margin-bottom: 0;
+}

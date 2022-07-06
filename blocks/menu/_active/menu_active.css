@@ -1,0 +1,5 @@
+.menu_active {
+  display: block;
+  transition: display .7s;
+
+}

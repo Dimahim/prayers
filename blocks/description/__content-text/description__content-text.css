@@ -1,0 +1,8 @@
+.description__content-text {
+  display: flex;
+  display: none;
+}
+
+.description_active {
+  display: block;
+}

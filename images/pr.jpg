@@ -1,0 +1,17 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>404 Error. Запрошенная страница не найдена.</title>
+</head>
+<style>
+  p    {z-index:1;text-align:center;font-family:Verdana,arial,sans-serif;font-size: 20px;color:#111;}
+</style>
+<body>
+<div>&nbsp;</div>
+<table width="100%" height="100%" border="0">
+  <tr><td width="100%" height="100%" align="center"><p>Запрошенная страница не найдена<br /><img src="/tech_static/404.jpg"><br /><br />
+<a href="/">Перейти на главную</a></td></tr>
+</table>
+</body>
+</html>

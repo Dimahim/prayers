@@ -1,0 +1,14 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%);
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0 30px;
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding: 0 10px;
+  }
+  
+}

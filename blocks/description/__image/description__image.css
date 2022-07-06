@@ -1,0 +1,16 @@
+.description__image {
+  max-width: 200px;
+  margin-bottom: 10px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 2px 7px 0 rgb(0 0 0 / 45%);
+  max-height: 116px;
+  height: 100%;
+}
+
+.description__image:hover {
+  transform: scale( 1.08);
+  transition: transform 400ms;
+  cursor: pointer;
+
+}

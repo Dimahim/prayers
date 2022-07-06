@@ -1,0 +1,4 @@
+.description__mane {
+  display: flex;
+  justify-content: space-between;
+}

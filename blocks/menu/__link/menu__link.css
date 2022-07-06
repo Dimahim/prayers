@@ -1,0 +1,16 @@
+.menu__link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 100%;
+}
+
+.menu__link:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 418px) {
+  .menu__link {
+    font-size: 13px;
+  }
+}

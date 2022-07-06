@@ -1,0 +1,6 @@
+.description__content-image {
+  flex-direction: column;
+  max-width: 200px;
+  margin-right: 20px;
+  padding-top: 119px;
+}

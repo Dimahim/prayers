@@ -1,0 +1,28 @@
+.description__content {
+  max-width: 938px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-right: 15px;
+  padding: 35px 35px;
+  box-shadow: 0 2px 7px 0 rgb(0 0 0 / 4%);
+  flex: 2;
+  padding: 35px 15px 35px 35px;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .description__content {
+    padding: 35px 15px 35px 35px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .description__content {
+    margin-right: 0;
+    padding: 35px 10px;
+  }
+}
+

@@ -1,0 +1,38 @@
+.footer__link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.12;
+  color: 	rgba(0,0,0,0.5);
+  text-decoration: none;
+  margin-right: 9px;
+  border-right: solid 1px rgba(0,0,0,0.5);
+  padding-right: 9px;
+}
+
+.footer__link:last-of-type {
+  border-right: none;
+}
+
+/* .footer__link {
+  border-right: none;
+}
+.footer__link:last-of-type {
+  margin-right: 0;
+} */
+/* .footer__link:hover {
+  cursor: pointer;
+  opacity: 0.8; 
+} */
+/* @media screen and (max-width: 767px) {
+.footer__link {
+  margin-bottom: 32px;
+  font-size: 24px;
+  line-height: 1;
+  padding-right: 0;
+  
+}
+.footer__link:last-of-type {
+  margin-bottom: 0;
+}
+} */
+
