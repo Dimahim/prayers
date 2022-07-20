@@ -17,6 +17,7 @@ const arrayMenuBurger = document.querySelectorAll('.menu__click');
 
 const formText = document.querySelector('#comment');
 const buttonForm = document.querySelector('#submit');
+const main = document.querySelector('.main');
 
 //массив ссылок меню бургер
 const linkSidebar = document.querySelectorAll('.page__links');
@@ -94,6 +95,8 @@ arrayMenuBurger.forEach((item) => {
 function closeBlockText() {
   removeActiveClass();
   blockText.classList.add('description_active');
+  menuActive.classList.remove('menu_active');
+  burgerMenu.classList.remove('header__burger_active');
 }
  
 // слушатель по лого
@@ -117,6 +120,18 @@ logo.addEventListener('click', closeBlockText);
 
   //кликаем по кнопке и очищаем форму
   buttonForm.addEventListener('click', cleanForm);
+
+  //функция закрытия бургер меню по документу
+  function closeMenu() {
+    if (menuActive.classList.contains('menu_active')) {
+      menuActive.classList.remove('menu_active');
+      burgerMenu.classList.remove('header__burger_active');
+    };
+  };
+
+  //слушатель клика по документу закрытия меню бургер
+  main.addEventListener('click', closeMenu);
+  
 
   //---------------------------------------------------------------------------------------------------
 
