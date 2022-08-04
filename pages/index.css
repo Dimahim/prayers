@@ -38,6 +38,7 @@
 @import url(../blocks/textarea/__span/textarea__span.css);
 @import url(../blocks/textarea/__submit/textarea__submit.css);
 @import url(../blocks/textarea/__title/textarea__title.css);
+@import url(../blocks/textarea/__form/textarea__form.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);

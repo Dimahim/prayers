@@ -1,4 +1,23 @@
+$(document).ready(function() {
 
+	//E-mail Ajax Send
+	$("form").submit(function() { //Change
+		var th = $(this);
+		$.ajax({
+			type: "POST",
+			url: "mail.php", //Change
+			data: th.serialize()
+		}).done(function() {
+			alert("Thank you!");
+			setTimeout(function() {
+				// Done Functions
+				th.trigger("reset");
+			}, 1000);
+		});
+		return false;
+	});
+
+});
 // Переменные  для попапа просмотра фотографий
 // const popupElement = document.querySelectorAll('.popup');
 // const elementPopupShowImage = document.querySelector('.popup__show_image');
@@ -18,6 +37,7 @@ const arrayMenuBurger = document.querySelectorAll('.menu__click');
 const formText = document.querySelector('#comment');
 const buttonForm = document.querySelector('#submit');
 const main = document.querySelector('.main');
+const formTextArea = document.querySelector('.textarea__form');
 
 //массив ссылок меню бургер
 const linkSidebar = document.querySelectorAll('.page__links');
